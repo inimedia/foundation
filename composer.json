@@ -1,0 +1,23 @@
+{
+  "name": "inimedia/foundation",
+  "authors": [
+    {
+      "name": "Adhe Widianjaya",
+      "email": "adwidianjaya@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "barryvdh/laravel-cors": "^0.8.2"
+  },
+  "require-dev": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inimedia\\Foundation\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
